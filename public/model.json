@@ -1,0 +1,35 @@
+{
+  "inputs": [
+    {
+      "name": "primaryColor",
+      "value": {
+        "text": "#892d7a"
+      }
+    },
+    {
+      "name": "logo",
+      "value": []
+    },
+    {
+      "name": "loginLogo",
+      "value": []
+    },
+    {
+      "name": "userEmail",
+      "value": {
+        "text": ""
+      }
+    },
+    {
+      "name": "userPassword",
+      "value": {
+        "text": ""
+      }
+    },
+    {
+      "name": "ecrypt",
+      "value": false
+    }
+  ],
+  "attachments": {}
+}

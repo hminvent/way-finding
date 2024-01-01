@@ -1,0 +1,9 @@
+.floor-map {
+  overflow: visible;
+  .floor-avatar {
+    background: none;
+    .q-avatar {
+      bottom: -30px;
+    }
+  }
+}

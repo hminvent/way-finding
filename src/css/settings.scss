@@ -1,0 +1,13 @@
+.settingsCard {
+  margin-inline: 23%;
+  margin-top: 7%;
+  border-radius: 10px;
+  .q-file {
+    .q-field__control::before {
+      border-style: dashed;
+    }
+  }
+  .saveBtn {
+    padding-inline: 15%;
+  }
+}

@@ -1,0 +1,46 @@
+.template-view {
+  border-radius: 5px;
+  overflow: hidden;
+  .back-ground-div {
+    position: absolute;
+  }
+  .bottom-absolute {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: $white;
+    border-radius: 20px 20px 0px 0px;
+    overflow: hidden;
+    img {
+      height: 80px;
+      margin: 20px;
+    }
+  }
+  .template-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 50px 30px 0;
+    z-index: 2;
+    p {
+      text-align: end;
+      border-inline-end: 4px solid;
+      padding-inline-end: 10px;
+    }
+    .text-h5 {
+      color: $primary;
+      margin: 0;
+    }
+    .text-h3 {
+      color: $white;
+    }
+    .mail-body {
+      border: none;
+      margin: 50px;
+      padding: 20px;
+      text-align: center;
+    }
+  }
+}

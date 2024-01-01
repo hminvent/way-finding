@@ -1,0 +1,34 @@
+.rb-card--width {
+  width: 1000px;
+}
+
+.type-card:hover {
+  top: -15px;
+  .q-card-section ::deep(.q-card-section) {
+    color: white !important;
+  }
+}
+
+.map {
+  position: relative;
+}
+.map img {
+  width: 600px;
+  cursor: crosshair;
+}
+.selection-dialog {
+  width: 400px;
+}
+.list-section {
+  height: calc(100vh - 66px);
+  position: relative;
+  .save-list {
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    span {
+      font-size: 12px;
+    }
+  }
+}

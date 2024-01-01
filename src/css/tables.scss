@@ -1,0 +1,81 @@
+.userTable{
+  box-shadow: none;
+tbody{
+  color:rgba(0, 0, 0, 0.6);
+}
+>.q-table__top, .q-table__bottom, thead tr:first-child th {
+  background-color: $tableBackground;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: 14px;
+  border: none;
+  font-weight: normal;
+
+}
+ > .q-table__bottom {
+//   padding-bottom: 0 ;
+//    padding-inline:0 48%;
+//    @media only screen and (max-width: 600px) {
+//     padding-inline: 35%;
+//   }
+  > :nth-child(2) {
+    display: none;
+  }
+ }
+> .q-table__middle{
+  > .q-table{
+    > tbody{
+      > tr{
+        > td{
+          border-bottom: 5px $tableBackground solid;
+           font-weight: normal;
+           font-size: 12px;
+        }
+      }
+    }
+  }
+}
+}
+.tableControl{
+  background-color: white;
+}
+.formCard{
+  .q-card{
+    transform-origin: center center;
+      border-radius: 15px;
+      width: 40%;
+      max-width: 100%;
+      @media only screen and (max-width: 600px) {
+        width: 85%;
+      }
+
+  }
+}
+.templateCard{
+  .q-card{
+    transform-origin: center center;
+      border-radius: 15px;
+      width: 70%;
+      max-width: 100%;
+      @media only screen and (max-width: 600px) {
+        width: 85%;
+      }
+      .Selected{
+        border: 4px solid rgb(6, 77, 242);
+        }
+.q-card{
+width: 90%;
+margin-inline: 5%;
+}
+  }
+}
+.responsiveMargin{
+  @media only screen and (max-width: 600px) {
+    margin: 0%;
+  }
+}
+.responsivePadding{
+  @media only screen and (max-width: 600px) {
+    padding-inline: 22%;
+  }
+}

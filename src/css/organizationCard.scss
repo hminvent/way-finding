@@ -1,0 +1,19 @@
+.organizationCard {
+  .q-card {
+    transform-origin: center center;
+    border-radius: 15px;
+    width: 54%;
+    max-width: 100%;
+    .responsiveMargin {
+      margin-inline: 20%;
+      padding-left: 10%;
+    }
+    @media only screen and (max-width: 600px) {
+      width: 85%;
+    }
+  }
+  .box {
+    border: 1px $borderColor solid;
+    // padding-inline: 10%;
+  }
+}

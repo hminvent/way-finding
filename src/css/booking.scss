@@ -1,0 +1,81 @@
+.bookingCard {
+  .q-card {
+    transform-origin: center center;
+    border-radius: 15px;
+    width: 85%;
+    max-width: 100%;
+  }
+}
+.bookingformbtns {
+  margin-inline: 20% 0;
+  > .q-btn {
+    min-width: 35%;
+    @media only screen and (max-width: 600px) {
+      margin: 0%;
+    }
+  }
+}
+.responsiveMargin {
+  @media only screen and (max-width: 600px) {
+    margin: 0%;
+  }
+}
+.responsivePadding {
+  @media only screen and (max-width: 600px) {
+    padding-inline: 22%;
+  }
+}
+.my-cal {
+  .vuecal {
+    margin: auto;
+    max-width: 1300px;
+    max-height: 662px;
+  }
+  .vuecal__event {
+    background-color: rgba(173, 216, 230, 0.5);
+    box-sizing: border-box;
+    padding: 5px;
+    cursor: pointer;
+
+    &.lunch {
+      background: repeating-linear-gradient(
+        45deg,
+        transparent,
+        transparent 10px,
+        #f2f2f2 10px,
+        #f2f2f2 20px
+      );
+    }
+  }
+  #app {
+    padding: 40px;
+    box-sizing: border-box;
+  }
+  a {
+    position: fixed;
+    top: 5px;
+    right: 5px;
+    color: #333;
+  }
+  .my-card {
+    width: 700px;
+    padding: 10px 30px;
+  }
+
+  .scheduled-times {
+    list-style-type: none;
+    padding: 0 14px;
+    color: #9a90a9;
+  }
+
+  .reserved-times li:not(.reserved-times > li:first-child) {
+    margin-right: 1rem;
+  }
+  .reserved-times li:first-child {
+    margin-bottom: 0.2rem;
+  }
+  .room-availability-row {
+    margin-bottom: 1rem;
+    margin-right: 0.5rem;
+  }
+}

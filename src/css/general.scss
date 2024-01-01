@@ -1,0 +1,33 @@
+.soft-shadow {
+  box-shadow: 1px 1px 15px #ccc;
+}
+.gap-5 {
+  gap: 5px;
+}
+.border-r-5 {
+  border-radius: 5px;
+}
+
+// RTL Custom style
+[dir="rtl"] {
+  @font-face {
+    font-family: ArabicFont;
+    src: url(../../public/fonts/Cairo/Cairo-Bold.ttf);
+  }
+  *:not(i) {
+    font-family: ArabicFont;
+  }
+  .mdi-arrow-right,
+  .mdi-arrow-left {
+    transform: rotateY(180deg);
+  }
+  // fix layout
+  .q-drawer-container {
+    & > aside.q-drawer {
+      top: 0 !important;
+    }
+  }
+  .openedDrawer {
+    right: 200px;
+  }
+}

@@ -1,0 +1,15 @@
+.q-avatar {
+  border: solid 1px #dbd8e0;
+  background-color: #f9f9f9;
+  &.file-map {
+    width: 422px;
+    height: 133px;
+  }
+  &.buildings-uploader {
+    width: 149px;
+    height: 154px;
+  }
+}
+.file-input {
+  display: none;
+}

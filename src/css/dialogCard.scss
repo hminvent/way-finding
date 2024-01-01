@@ -1,0 +1,10 @@
+.rb-card--width {
+  width: 700px;
+}
+
+.type-card:hover {
+  top: -15px;
+  .q-card-section ::deep(.q-card-section) {
+    color: white !important;
+  }
+}

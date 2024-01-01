@@ -1,0 +1,43 @@
+{
+  "inputs": [
+    {
+      "group": "Layout",
+      "name": "primaryColor",
+      "label": "Primary Color",
+      "type": "colorpicker",
+      "options": {
+        "allowtransparency": false,
+        "allowempty": false
+      },
+      "placeholder": "Primary Color"
+    },
+    {
+      "group": "Layout",
+      "name": "logo",
+      "locked": false,
+      "label": "App Logo",
+      "type": "fileupload",
+      "options": {
+        "maxfiles": 1
+      },
+      "validation": {
+        "required": false,
+        "fileextensions": [".jpg", ".png"]
+      }
+    },
+    {
+      "group": "Layout",
+      "name": "loginLogo",
+      "locked": false,
+      "label": "Log In Logo",
+      "type": "fileupload",
+      "options": {
+        "maxfiles": 1
+      },
+      "validation": {
+        "required": false,
+        "fileextensions": [".jpg", ".png"]
+      }
+    }
+  ]
+}

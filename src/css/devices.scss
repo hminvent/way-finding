@@ -1,0 +1,35 @@
+.device-page{
+.q-table__container{
+width: 100%;
+}
+.groups{
+.q-card{
+background-color:#f2eff3 ;
+box-shadow: 1px 1px 20px $boxShadow;
+.q-card{
+//border-bottom: 1px rgb(151, 148, 148) solid;
+//border-radius: none;
+box-shadow: none;
+}
+}
+
+.q-card > div:not(:first-child){
+  border-top-left-radius:  5px;
+  border-top-right-radius: 5px;
+}
+}
+.tableBtns{
+  width: 100%;
+  margin: auto;
+  text-align: right;
+  }
+.q-btn{
+  box-shadow: 0px 0px $boxShadow;
+}
+.template-image{
+.q-img__image{
+width:40px;
+height: 50px;
+}
+}
+}

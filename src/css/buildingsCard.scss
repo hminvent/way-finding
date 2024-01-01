@@ -1,0 +1,6 @@
+.arrow-right-hover {
+  transition: all 0.3s;
+  &:hover {
+    transform: translateX(5px);
+  }
+}
